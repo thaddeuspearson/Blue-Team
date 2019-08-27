@@ -17,6 +17,8 @@ http://log-sharing.dreamhosters.com/bluecoat_proxy_big.zip
 
 ## BlueCoat Proxy Log Syntax
 
+<br>
+
 ```
 <date> <time> <time-taken> <c-ip> <sc-status> <s-action> <sc-bytes> <cs-bytes> <cs-method> <cs-uri-scheme> <cs-host> <cs-uri-path> <cs-uri-query> <cs-username> <s-hierarchy> <s-supplier-name> <content-type> <cs-useragent> <sc-filter-result> <sc-filter-category> <x-virus-id> <s-ip> <s-sitename> <x-virus-details> <x-icap-error-code> <x-icap-error-details>
 ```
