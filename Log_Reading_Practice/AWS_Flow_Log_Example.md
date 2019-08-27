@@ -13,6 +13,7 @@
 
 ## Examples
 <br>
+
 **SSH (destination port 22, TCP protocol 6) traffic from 172.31.16.139 to network interface eni-abc123de in account number 123456789010 was accepted:**
 
 
