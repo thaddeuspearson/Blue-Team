@@ -13,6 +13,7 @@ http://log-sharing.dreamhosters.com/bluecoat_proxy_big.zip
 
 2005-05-04 17:16:08 18 45.23.4.216 304 TCP_RESCAN_HIT 422 405 GET http twinpeaksweather.com /java-sys/Dgclock.class - - DIRECT 66.235.216.135 application/octet-stream "Mozilla/4.0 (Windows 2000 5.0) Java/1.5.0_02" PROXIED News/Media - 192.16.170.42 SG-HTTP-Service - none -
 ```
+<br>
 
 ## BlueCoat Proxy Log Syntax
 
