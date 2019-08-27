@@ -23,7 +23,6 @@ http://log-sharing.dreamhosters.com/bluecoat_proxy_big.zip
 <br>
 
 The first log indicates that at 17:16:08 on 2005-05-04(YYYY-MM-DD), a client at ip 45.14.4.61, with a Windows NT 5.1 MSIE 6.0 user-agent was redirected (status code 304) to a cached resource from hg.travelocity.com.edgesuite.net/graphics/tvly_mc_123x25.gif, which is a image/gif file. This request was proxied by 192.16.170.42 and filtered as Travel. The TCP_HIT indicated that a valid copy of the requested object was in the cache.
-
 <br>
 
 ```
@@ -44,7 +43,6 @@ The second log indicated that at 17:16:08 on 2005-05-04(YYYY-MM-DD), a client at
 <br>
 
 The third log indicated that at 17:16:08 on 2005-05-04(YYYY-MM-DD), a client at ip 45.23.4.216 with a Windows 2000 user-agent made a GET request for a web application at http://twinpeaksweather.com/java-sys/Dgclock.class.  This request was proxied by 192.16.170.42 and filtered as SG-HTTP-Service.  The TCP_RESCAN_HIT indicated that the requested object was found in the cache but was rescanned because the virus-scanner-tag-id in the object was different from the current scanner tag.
-
 <br>
 
 ```
