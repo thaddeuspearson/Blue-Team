@@ -14,7 +14,9 @@
 ## Examples
 <br>
 
-**SSH (destination port 22, TCP protocol 6) traffic from 172.31.16.139 to network interface eni-abc123de in account number 123456789010 was accepted:**
+#### Example 1
+
+SSH (destination port 22, TCP protocol 6) traffic from 172.31.16.139 to network interface eni-abc123de in account number 123456789010 was accepted:
 
 
 ```
@@ -23,7 +25,9 @@
 <br>
 <br>
 
-**RDP (destination port 3389, TCP protocol 6) traffic from 172.31.9.69 to network interface eni-abc123de  in account number 123456789010 was rejected:**
+#### Example 2
+
+RDP (destination port 3389, TCP protocol 6) traffic from 172.31.9.69 to network interface eni-abc123de  in account number 123456789010 was rejected:
 
 
 
@@ -33,7 +37,9 @@
 <br>
 <br>
 
-**Two examples are when no data or skipped data is recorded from the capture session:**
+#### Example 3
+
+Two examples are when no data or skipped data is recorded from the capture session:
 
 
 ```
