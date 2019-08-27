@@ -4,16 +4,16 @@
 
 <br>
 
-### AWS Flow Log Syntax
+## AWS Flow Log Syntax
 
 ```
 <version> <account-id> <interface-id> <srcaddr> <dstaddr> <srcport> <dstport> <protocol> <packets> <bytes> <start> <end> <action> <log-status>
 ```
 <br>
 
-### Examples
+## Examples
 <br>
-SSH (destination port 22, TCP protocol 6) traffic from 172.31.16.139 to network interface eni-abc123de in account number 123456789010 was accepted:
+**SSH (destination port 22, TCP protocol 6) traffic from 172.31.16.139 to network interface eni-abc123de in account number 123456789010 was accepted:**
 
 
 ```
@@ -22,7 +22,7 @@ SSH (destination port 22, TCP protocol 6) traffic from 172.31.16.139 to network 
 <br>
 <br>
 
-RDP (destination port 3389, TCP protocol 6) traffic from 172.31.9.69 to network interface eni-abc123de  in account number 123456789010 was rejected:
+**RDP (destination port 3389, TCP protocol 6) traffic from 172.31.9.69 to network interface eni-abc123de  in account number 123456789010 was rejected:**
 
 
 
@@ -32,7 +32,7 @@ RDP (destination port 3389, TCP protocol 6) traffic from 172.31.9.69 to network 
 <br>
 <br>
 
-Two examples are when no data or skipped data is recorded from the capture session:
+**Two examples are when no data or skipped data is recorded from the capture session:**
 
 
 ```
