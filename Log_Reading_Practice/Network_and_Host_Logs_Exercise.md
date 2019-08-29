@@ -41,6 +41,7 @@ Aug  5 15:13:10 debian kernel: [ 2838.886422] [UFW AUDIT] IN=enp0s8 OUT= MAC=48:
 Aug  5 15:13:10 debian kernel: [ 2838.887038] [UFW AUDIT] IN=enp0s8 OUT= MAC=48:2e:7e:38:f4:51:88:77:11:e5:a4:28:08:00 SRC=192.168.56.3 DST=192.168.56.6 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=32790 DF PROTO=TCP SPT=48856 DPT=80 WINDOW=29200 RES=0x00 SYN URGP=0 
 ```
 <details><summary><b>Exercise Answers</b></summary>
+<br>
 <p>
 1. The OS of this log is Linux (debial kernal).  UFW firewall generated this report.
 </p>
@@ -67,6 +68,7 @@ Aug  5 16:28:12 debian kernel: [ 3584.699304] [UFW BLOCK] IN= OUT=enp0s3 SRC=10.
 ```
 
 <details><summary><b>Exercise Answers</b></summary>
+<br>
 <p>
 1. The OS of this log is Linux (debial kernal).  UFW firewall generated this report.
 </p>
@@ -104,6 +106,7 @@ Aug  5 16:28:12 debian kernel: [ 3584.699304] [UFW BLOCK] IN= OUT=enp0s3 SRC=10.
 2019-08-05 16:43:19 ALLOW ICMP 192.168.56.7 192.168.56.3 - - 0 - - - - 8 0 - SEND
 ```
 <details><summary><b>Exercise Answers</b></summary>
+<br>
 <p>
 1. The OS of this log is Windows.  The Windows Defender Firewall generated this report.
 </p>
@@ -114,5 +117,9 @@ Aug  5 16:28:12 debian kernel: [ 3584.699304] [UFW BLOCK] IN= OUT=enp0s3 SRC=10.
 3.  This log does not indicate any malicious behavior.
 </p>
 </details>
+
+# Detection Alerts
+
+![pi-hole](https://raw.githubusercontent.com/thaddeuspearson/Blue-Team/master/pi_hole.png)pi_hole
 
 
