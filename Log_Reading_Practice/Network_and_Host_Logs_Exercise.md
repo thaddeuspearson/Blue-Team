@@ -164,3 +164,44 @@ identify(exercises)
 <p>
 4. The likely reason that these domains were blocked is that the user did not want to share their data from their machine with Microsoft, nor did they want windows to dynamically configure their services.
 </details>
+
+<br>
+
+## AntiVirus
+
+```python
+
+exercises = [
+
+    "1. Evaluate the screenshot",
+
+    "2. What domains were blocked by the firewall?",
+
+    "3. Are the domains potentially malicious?",
+
+    "4. What is the likely reason the domains were blocked?"
+
+]
+
+identify(exercises)
+```
+<br>
+
+![pi-hole](https://raw.githubusercontent.com/thaddeuspearson/Blue-Team/master/photos_and_screenshots/pi_hole.png)
+
+<details><summary><b>Exercise Answers</b></summary>
+<br>
+<p>
+1. This log file came from the application Pi-hole (https://pi-hole.net).  It is an ad-blocking DNS server typically run on a rasberry pi.
+</p>
+<p>
+2. Pi-hole has been set to blacklist v10.events.data.microsoft.com and settings-win.data.microsoft.com. 
+</p>
+<p>
+3. The domains that have been blacklisted are not inherently malicious. v10.events.data.microsoft.com is a windows 10 service associated with Diagnostic Data, and settings-win.data.microsoft.com is used for Windows apps to dynamically update their configuration.
+</p>
+<p>
+4. The likely reason that these domains were blocked is that the user did not want to share their data from their machine with Microsoft, nor did they want windows to dynamically configure their services.
+</details>
+
+<br>
