@@ -120,6 +120,6 @@ Aug  5 16:28:12 debian kernel: [ 3584.699304] [UFW BLOCK] IN= OUT=enp0s3 SRC=10.
 
 # Detection Alerts
 
-![pi-hole](https://raw.githubusercontent.com/thaddeuspearson/Blue-Team/master/pi_hole.png)pi_hole
+![pi-hole](https://raw.githubusercontent.com/thaddeuspearson/Blue-Team/master/photos_and_screenshots/pi_hole.png)pi_hole
 
 
