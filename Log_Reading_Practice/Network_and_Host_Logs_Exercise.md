@@ -126,7 +126,10 @@ Aug  5 16:28:12 debian kernel: [ 3584.699304] [UFW BLOCK] IN= OUT=enp0s3 SRC=10.
 </p>
 </details>
 
+<br>
+
 # Detection Alerts
+
 
 ## DNS
 
@@ -187,7 +190,13 @@ identify(exercises)
 ```
 <br>
 
-![pi-hole](https://raw.githubusercontent.com/thaddeuspearson/Blue-Team/master/photos_and_screenshots/pi_hole.png)
+![anti_virus_1](https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/antivirus_1.png?raw=true)
+
+<br>
+
+![anti_virus_2](https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/antivirus_2.png?raw=true)
+
+<br>
 
 <details><summary><b>Exercise Answers</b></summary>
 <br>
