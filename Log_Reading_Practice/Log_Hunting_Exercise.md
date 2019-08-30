@@ -4,7 +4,7 @@
 
 def identify(exercise_list):
 
-    questions_complete = False
+    exercises_complete = False
 
 
     for exercise in exercise_list:
@@ -13,7 +13,7 @@ def identify(exercise_list):
 
         if exercise == exercise_list[len(exercise_list - 1)]:
 
-            questions_complete = True
+            exercises_complete = True
 
             return "I'm Finished!!!"
 
