@@ -165,7 +165,7 @@ identify(exercises)
 3. The domains that have been blacklisted are not inherently malicious. v10.events.data.microsoft.com is a windows 10 service associated with Diagnostic Data, and settings-win.data.microsoft.com is used for Windows apps to dynamically update their configuration.
 </p>
 <p>
-4. The likely reason that these domains were blocked is that the user did not want to share their data from their machine with Microsoft, nor did they want windows to dynamically configure their services.
+4. The likely reason that these domains were blocked is that these services are on the gravity script in Pi-hole.  The gravity script retrives blocklists, and consolidates them into one unique list for the DNS to use.
 </details>
 
 <br>
