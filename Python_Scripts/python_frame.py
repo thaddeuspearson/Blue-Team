@@ -18,8 +18,8 @@ content = file.read().split("")
 def main():
 
     #replace primary_function below
-    
+
     print(primary_function(content))
 
-if __name__ == __main__:
+if __name__ == "__main__":
     main()

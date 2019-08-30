@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import sys
 
@@ -15,7 +15,9 @@ def src_and_dst_ip_counter(log_lst):
     for log in log_lst:
     # build a dictionary with src ips and dst ips
         ip_dict_create_and_count(src_ip_dict, param_scraper("SRC", log))
-        ip_dict_create_and_count(dst_ip_dict, param_scraper("DST", log))
+        #ip_dict_create_and_count(dst_ip_dict, param_scraper("DST", log))
+
+    return src_ip_dict
         
     
 
@@ -36,9 +38,11 @@ def ip_dict_create_and_count(ip_dict, ip_str):
             "count": 1,
         }
 
-def formatter(dct_1, dct_2):
+##def formatter(dct_1, dct_2):
 
-    for ip in dct_1
+ ##   for ip in dct_1:
+  ##      if ip in dct_2:
+            
 
 
 
