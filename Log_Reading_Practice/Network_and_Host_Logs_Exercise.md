@@ -202,7 +202,7 @@ identify(exercises)
 <br>
 
 
-### SHA256 hash for `payload4.exe` and payload5.exe:
+#### SHA256 hash for `payload4.exe` and `payload5.exe`:
 ```
 886943cb62c287b4bcf77372227875e10cf87b6e76eaa046b5a54547db13d5f9
 ```
