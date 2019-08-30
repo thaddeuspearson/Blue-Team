@@ -130,6 +130,7 @@ Aug  5 16:28:12 debian kernel: [ 3584.699304] [UFW BLOCK] IN= OUT=enp0s3 SRC=10.
 
 # Detection Alerts
 
+<br>
 
 ## DNS
 
