@@ -57,7 +57,7 @@ Aug  5 15:13:10 debian kernel: [ 2838.887038] [UFW AUDIT] IN=enp0s8 OUT= MAC=48:
 2. The log is says that 2 outbound DHCP attempts occuring on ports 68/68 were blocked.
 </p>
 <p>
-3.  This log is not indicative of anything malicious.
+3. This log is not indicative of anything malicious.
 </p>
 </details>
 <br>
@@ -84,7 +84,7 @@ Aug  5 16:28:12 debian kernel: [ 3584.699304] [UFW BLOCK] IN= OUT=enp0s3 SRC=10.
 2. The log is says that outbound TCP traffic on port 1337 was blocked 4 times.
 </p>
 <p>
-3.  This log is slightly indicative of malicious behavior, as the port 1337 is being used.
+3. This log is slightly indicative of malicious behavior, as the port 1337 is being used.
 </p>
 </details>
 <br>
@@ -122,7 +122,7 @@ Aug  5 16:28:12 debian kernel: [ 3584.699304] [UFW BLOCK] IN= OUT=enp0s3 SRC=10.
 2. The log is says 4 outbound pings to destination ip 192.168.56.2 were allowed, 6 ping attempts from 192.168.56.3 to the local machine were blocked, and 4 pings to destination ip 192.168.56.103 were allowed. 
 </p>
 <p>
-3.  This log does not indicate any malicious behavior.
+3. This log does not indicate any malicious behavior.
 </p>
 </details>
 
@@ -166,6 +166,7 @@ identify(exercises)
 </p>
 <p>
 4. The likely reason that these domains were blocked is that these services are on the gravity script in Pi-hole.  The gravity script retrives blocklists, and consolidates them into one unique list for the DNS to use.
+</p>
 </details>
 
 <br>
@@ -176,13 +177,11 @@ identify(exercises)
 
 exercises = [
 
-    "1. Evaluate the screenshot",
+    "1. Which application generated the below detection alerts?",
 
-    "2. What domains were blocked by the firewall?",
+    "2. Are the detected actions benign or malicious?",
 
-    "3. Are the domains potentially malicious?",
-
-    "4. What is the likely reason the domains were blocked?"
+    "3. Are all the quarantined items in image 2 malicious?"
 
 ]
 
@@ -190,27 +189,34 @@ identify(exercises)
 ```
 <br>
 
+### Image 1
+
 ![anti_virus_1](https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/antivirus_1.png?raw=true)
 
 <br>
+
+### Image 2
 
 ![anti_virus_2](https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/antivirus_2.png?raw=true)
 
 <br>
 
+
+### SHA256 hash for `payload4.exe` and payload5.exe:
+```
+886943cb62c287b4bcf77372227875e10cf87b6e76eaa046b5a54547db13d5f9
+```
+<br>
+
 <details><summary><b>Exercise Answers</b></summary>
 <br>
 <p>
-1. This log file came from the application Pi-hole (https://pi-hole.net).  It is an ad-blocking DNS server typically run on a rasberry pi.
+1. This log file came from the application AVG (https://avg.com).  This is an anti-virus application.
 </p>
 <p>
-2. Pi-hole has been set to blacklist v10.events.data.microsoft.com and settings-win.data.microsoft.com. 
+2. The detected actions are malicious in nature.  The application notepad.exe has been quarantined because it was infected with malware.  The threat name of the malware is Win32:TrojanX-gen [Trj].  It is considered a low level threat.
 </p>
 <p>
-3. The domains that have been blacklisted are not inherently malicious. v10.events.data.microsoft.com is a windows 10 service associated with Diagnostic Data, and settings-win.data.microsoft.com is used for Windows apps to dynamically update their configuration.
+3. It is highly likely that all of the quarentined items in image 2 are malicious.  Upon checking 
 </p>
-<p>
-4. The likely reason that these domains were blocked is that the user did not want to share their data from their machine with Microsoft, nor did they want windows to dynamically configure their services.
 </details>
-
-<br>
