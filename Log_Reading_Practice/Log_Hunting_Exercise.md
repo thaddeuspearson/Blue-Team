@@ -9,6 +9,8 @@ def identify(exercise_list):
 
     for exercise in exercise_list:
 
+        do(exercise)
+
         if exercise == exercise_list[len(exercise_list - 1)]:
 
             questions_complete = True
