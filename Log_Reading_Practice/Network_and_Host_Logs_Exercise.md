@@ -217,6 +217,10 @@ identify(exercises)
 2. The detected actions are malicious in nature.  The application notepad.exe has been quarantined because it was infected with malware.  The threat name of the malware is Win32:TrojanX-gen [Trj].  It is considered a low level threat.
 </p>
 <p>
-3. It is highly likely that all of the quarentined items in image 2 are malicious.  Upon checking 
+3. It is highly likely that all of the quarentined items in image 2 are malicious.  Upon checking virus total, 21 engines have detected this files SHA256 hash to be associated with malware.
+
+![virus_total](https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/virus_total_payload4.png?raw=true)
+
+Furthermore, the file locations the other quarantined file was found at a suspicious location, `C:\Users\root\AppData\Local\Temp\p.ps1`.  It would be highly unusual for a power shell to be running from a temporary file location.
 </p>
 </details>
