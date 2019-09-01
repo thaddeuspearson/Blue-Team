@@ -10,9 +10,17 @@ content = file.read().splitlines()
 def scripting_1(log_file):
     ip_dct = {}
     ip_count = []
-    for log in log_file:
-        src_ip = log.split(";")[2]
 
+    # read each log in the log_file
+
+    for log in log_file:
+
+        # strip the source ip address
+
+        src_ip = log.split(";")[4]
+
+        # count the number of instances a source ip exists in the log_file
+        
         if src_ip in ip_dct:
             ip_dct[src_ip]["count"] += 1
         else:
@@ -20,21 +28,20 @@ def scripting_1(log_file):
                 "count" : 1
             } 
     
+    # create a list for sorting the source ips by count
+
     for ip_and_count in ip_dct:
-        # print ip_dct[ip_and_count]["count"]
         ip_count.append([ip_dct[ip_and_count]["count"], ip_and_count])
+
+    # sort the ips from least to greatest
 
     return sorted(ip_count, key=lambda x: x[0])
 
     
-
-
-
+    
 
 
 def main():
-
-    #replace primary_function below
     
     print(scripting_1(content))
 
