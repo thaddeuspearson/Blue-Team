@@ -60,11 +60,14 @@ What is unusual is that the zone transfer succeeded.  This should only be reserv
 
 ![hosts_scanned](https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/Scanned_Hosts.png?raw=true)
 
+<br>
+
 #### 7. The attacker scanned the same group of ports on each server. Which ports did the attacker include in his/her scan of these hosts?
 
 <p>
 Ports scanned were 20, 21, 22, 25, 80, 443
 </p>
 
-![ports_scanned]()
+![ports_scanned](https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/Ports_Scanned.png?raw=true)
+
 <br>
