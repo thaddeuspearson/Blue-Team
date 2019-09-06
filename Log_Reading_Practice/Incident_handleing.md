@@ -18,15 +18,21 @@ You recently joined your orginization's incident handling team.  One of the netw
 For this exercise, I will use Kali Linux as the operating system.  I will use Wireshark to analyze the network traffic.
 </p>
 
+<br>
+
 #### 2. What is the IP address of the host in the 172.16.2.0/24 subnet that accessed our DNS server?
 
 <p>
 The IP address of the host is 172.16.2.58
 </p>
 
+<br>
+
 #### 3. What are the ﬁrst three requests made from that host to our DNS server?
 
 ![dns_&&_src]("https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/dns_&&_src_ip.png?raw=true")
+
+<br>
 
 #### 4. What information has the external host determined about our network that he/she mightuse during subsequent penetration attempts?
 
@@ -35,3 +41,7 @@ The external host has successfully received a DNS zone transfer response.  This 
 </p>
 
 ![AXFR_evidence]("https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/AXFR_evidence.png?raw=true")
+
+<br>
+
+#### 5.  What is unusual about this interaction between an (external) Internet host and our DNS server?
