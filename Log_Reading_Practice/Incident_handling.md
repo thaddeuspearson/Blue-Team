@@ -71,3 +71,21 @@ Ports scanned were 20, 21, 22, 25, 80, 443
 ![ports_scanned](https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/Ports_Scanned.png?raw=true)
 
 <br>
+
+#### 8. Which ports did the attacker find open?
+
+```
+Destination IP | Ports open
+--------------------------------
+10.10.4.1      | 22, 80, 443
+10.10.4.12     | 21, 22, 80, 443
+10.10.4.16     | 21, 22
+10.10.4.251    | 53
+```
+
+<br>
+
+#### 9. What is wrong with our ﬁrewall rules that allowed these scans to get to our DMZ network?
+
+##### Services Allowed
+![allowed_services]
