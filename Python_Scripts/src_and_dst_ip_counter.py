@@ -37,7 +37,7 @@ def ip_dict_create_and_count(ip_dict, ip_str):
         ip_dict[ip_str] = {
             "count": 1,
         }
-
+        
 ##def formatter(dct_1, dct_2):
 
  ##   for ip in dct_1:
