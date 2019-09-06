@@ -49,3 +49,10 @@ The external host has successfully received a DNS zone transfer.  This has enume
 <p>
 What is unusual is that the zone transfer succeeded.  This should only be reserved for exchanges inbetween DNS servers. Users should not be able to receive a DNS zone transfer.
 </p> 
+
+#### 6. Which hosts were scanned?
+<p>
+
+</p>
+
+![hosts_scanned]()
