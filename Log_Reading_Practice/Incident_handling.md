@@ -50,6 +50,8 @@ The external host has successfully received a DNS zone transfer.  This has enume
 What is unusual is that the zone transfer succeeded.  This should only be reserved for exchanges inbetween DNS servers. Users should not be able to receive a DNS zone transfer.
 </p> 
 
+<br>
+
 #### 6. Which hosts were scanned?
 
 <p>
@@ -57,3 +59,12 @@ What is unusual is that the zone transfer succeeded.  This should only be reserv
 </p>
 
 ![hosts_scanned](https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/Scanned_Hosts.png?raw=true)
+
+#### 7. The attacker scanned the same group of ports on each server. Which ports did the attacker include in his/her scan of these hosts?
+
+<p>
+Ports scanned were 20, 21, 22, 25, 80, 443
+</p>
+
+![ports_scanned]()
+<br>
