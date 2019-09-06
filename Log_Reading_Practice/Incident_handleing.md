@@ -30,7 +30,7 @@ The IP address of the host is 172.16.2.58
 
 #### 3. What are the ﬁrst three requests made from that host to our DNS server?
 
-![dns_&&_src]("https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/dns_&&_src_ip.png?raw=true")
+![dns_&&_src](https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/dns_&&_src_ip.png?raw=true)
 
 <br>
 
@@ -40,7 +40,7 @@ The IP address of the host is 172.16.2.58
 The external host has successfully received a DNS zone transfer response.  This has enumerated the ip addresses and DNS records of all of the ip addresses located on our DMZ network.  This will enable the host to do more accurate network scanning.
 </p>
 
-![AXFR_evidence]("https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/AXFR_evidence.png?raw=true")
+![AXFR_evidence](https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/AXFR_evidence.png?raw=true)
 
 <br>
 
