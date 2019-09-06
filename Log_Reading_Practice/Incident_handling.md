@@ -51,8 +51,9 @@ What is unusual is that the zone transfer succeeded.  This should only be reserv
 </p> 
 
 #### 6. Which hosts were scanned?
-<p>
 
+<p>
+4 hosts were scanned.  10.10.4.1, 10.10.4.12, 10.10.4.16, 10.10.4.251
 </p>
 
-![hosts_scanned]()
+![hosts_scanned](https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/Scanned_Hosts.png?raw=true)
