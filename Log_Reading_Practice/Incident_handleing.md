@@ -34,10 +34,10 @@ The IP address of the host is 172.16.2.58
 
 <br>
 
-#### 4. What information has the external host determined about our network that he/she mightuse during subsequent penetration attempts?
+#### 4. What information has the external host determined about our network that he/she might use during subsequent penetration attempts?
 
 <p>
-The external host has successfully received a DNS zone transfer response.  This has enumerated the ip addresses and DNS records of all of the ip addresses located on our DMZ network.  This will enable the host to do more accurate network scanning.
+The external host has successfully received a DNS zone transfer.  This has enumerated the ip addresses and DNS records of all of the ip addresses located on our DMZ network.  This will enable the host to do more accurate network scanning.
 </p>
 
 ![AXFR_evidence](https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/AXFR_evidence.png?raw=true)
@@ -45,3 +45,7 @@ The external host has successfully received a DNS zone transfer response.  This 
 <br>
 
 #### 5.  What is unusual about this interaction between an (external) Internet host and our DNS server?
+
+<p>
+What is unusual is that the zone transfer succeeded.  This should only be reserved for exchanges inbetween DNS servers. Users should not be able to receive a DNS zone transfer.
+</p> 
