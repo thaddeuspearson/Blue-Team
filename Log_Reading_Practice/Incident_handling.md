@@ -87,5 +87,17 @@ Destination IP | Ports open
 
 #### 9. What is wrong with our ﬁrewall rules that allowed these scans to get to our DMZ network?
 
-##### Services Allowed
-![allowed_services]
+**Services Allowed**
+
+![allowed_services](https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/Allowed_Services.png?raw=true)
+
+**Misconfigured Firewall Rules**
+![mksconfigured_ssh](https://github.com/thaddeuspearson/Blue-Team/blob/master/photos_and_screenshots/Misconfigured_SSH_Rule.png?raw=true)
+
+<p>
+As currently configured, all DMZ traffic to port 22 is allowed.  The destination address parameter should be changed from DMZ to 10.10.4.16, and only allow ssh traffic to the allowed service.
+</p>
+
+<br>
+
+#### 10. What did the attacker do during his/her anonymous login? What information was tattacker able to get from the FTP server during the anonymous login?
