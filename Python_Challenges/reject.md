@@ -27,6 +27,7 @@ def main():
 
             # test each element for the opposite
 	    for item in lst:
+            
 		    if opposite(func, item) == True:
 		        return_lst.append(item)
     
