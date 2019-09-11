@@ -1,4 +1,4 @@
-# split_workload 
+# Split_Workload 
 
 Write a function called `split_workload` which takes in a list of tasks and a list of people. 
 
