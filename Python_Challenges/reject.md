@@ -8,14 +8,13 @@ The `reject` function returns a list made of the elements that are the logical o
 def less_than_five(num):
     return num < 5
 
-list_of_values = reject([1, 3, 4, 5, 6, 9, 11], less_than_five)
-## list_of_values = [6, 9, 11]
+rejected_values = reject([1, 3, 4, 5, 6, 9, 11], less_than_five)
+## rejected_values = [6, 9, 11]
 ```
 
 <details><summary><b>Solution</b></summary>
 
 ```python
-
 def main():
     
     # return the opposite of a given function
