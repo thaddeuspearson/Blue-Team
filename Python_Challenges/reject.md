@@ -2,7 +2,7 @@
 
 Write the function `reject` that accepts as an argument a list and function.
 
-The `reject` function returns a list made of the elements that are the logical opposite of what the given function returns when invoked with each element.
+The `reject` function returns a list made of the elements that are the opposite of what the given function normally returns when invoked with each element.
 
 ```python
 def less_than_five(num):
