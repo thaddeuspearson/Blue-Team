@@ -5,12 +5,12 @@ Write a function called `split_workload` which takes in a list of tasks and a li
 Given this list of tasks, return a dictionary of the tasks assigned to each individual in order in the list of people. The tasks should be split equally amongst them.
 
 ```python
-chore_list = split_workload(['wash dishes', 'do stuff', 'call mom', 'go to california'], ['joe', 'lily'])
+chore_list = split_workload(['wash dishes', 'do stuff', 'call mom', 'go to NY'], ['joe', 'lily'])
 
-# chorelist = {'joe': ['wash dishes', 'call mom'],'lily': ['do stuff', 'go to california']}
+# chorelist = {'joe': ['wash dishes', 'call mom'],'lily': ['do stuff', 'go to NY']}
 ```
 
-<details><summary><b>Solution</b><summary>
+<details><summary><b>Solution</b></summary>
 
 ```python
 
