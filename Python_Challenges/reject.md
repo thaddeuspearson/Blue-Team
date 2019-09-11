@@ -9,7 +9,7 @@ def less_than_five(num):
     return num < 5
 
 rejected_values = reject([1, 3, 4, 5, 6, 9, 11], less_than_five)
-## rejected_values = [6, 9, 11]
+# rejected_values = [6, 9, 11]
 ```
 
 <details><summary><b>Solution</b></summary>
@@ -25,12 +25,12 @@ def main():
     def reject(lst, func):
 	return_lst = []
 
-        # test each element for the opposite
+    # test each element for the opposite
 	    for item in lst:
 		    if opposite(func, item) == True:
 		        return_lst.append(item)
     
-        # return the opposite elements
+    # return the opposite elements
 	    return return_lst
 
 if __name__ == "__main__":
