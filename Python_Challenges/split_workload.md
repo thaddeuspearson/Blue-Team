@@ -29,7 +29,7 @@ def main():
         # iterate through tasks, and assign them to people in order
         for task in task_list:
             
-            # cycle through the person list
+            # cycle through the people_list
             current_person = current_person_index % len(people_list)
 
             # assign task to proper person
