@@ -9,6 +9,7 @@ chore_list = split_workload(['wash dishes', 'do stuff', 'call mom', 'go to calif
 
 # chorelist = {'joe': ['wash dishes', 'call mom'],'lily': ['do stuff', 'go to california']}
 ```
+
 <details><summary><b>Solution</b><summary>
 
 ```python
