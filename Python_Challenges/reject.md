@@ -25,12 +25,12 @@ def main():
     def reject(lst, func):
 	return_lst = []
 
-    # test each element for the opposite
+        # test each element for the opposite
 	    for item in lst:
 		    if opposite(func, item) == True:
 		        return_lst.append(item)
     
-    # return the opposite elements
+        # return the opposite elements
 	    return return_lst
 
 if __name__ == "__main__":
