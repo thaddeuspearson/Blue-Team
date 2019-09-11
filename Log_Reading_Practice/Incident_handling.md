@@ -100,4 +100,4 @@ As currently configured, all DMZ traffic to port 22 is allowed.  The destination
 
 <br>
 
-#### 10. What did the attacker do during his/her anonymous login? What information was tattacker able to get from the FTP server during the anonymous login?
+#### 10. What did the attacker do during his/her anonymous login? What information was attacker able to get from the FTP server during the anonymous login?
